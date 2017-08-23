@@ -1,0 +1,17 @@
+<!-- defualt.html -->
+<!doctype html>
+<html>
+  <head>
+    <title>Hindu Numerals to Roman Numerals</title>
+  </head>
+  <body>
+    <h1>Number converter</h1>
+    <form method="post" action="/">
+      <input type="number" step="0" name="numberToConvert">
+      <button>Convert</button>
+    </form>
+    {{#conversion}}
+      {{ conversion }}
+    {{/conversion}}
+  </body>
+</html>
